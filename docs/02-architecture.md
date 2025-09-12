@@ -12,5 +12,7 @@
 ## Dependencies
 - List any libraries and why they were chosen.
 
+1) math.random -- for generate race number.
+
 ## Build/Run
 - Exact commands to run locally and (if any) deploy.

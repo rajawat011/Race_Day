@@ -1,20 +1,39 @@
 # Project Title
 
 > One-line summary of what this project does and who it's for.
+this project is for a annual race. I'm gonna write a program for runners registeration to give them time and instruction on race day acording to their age and registration timeing.
 
 ## Overview
 - **Problem:** What user problem are we solving?
+
+.manage timeing for different age group participants
+.assign runners their particular race number therefore raceing track
+
 - **Outcome:** What does success look like for a user?
+
+. if early adult get race no. above 1000 and late below 1000 and race time 9:30 am and 11:30am respectively
+
+. and youth registrants race time at 12:30 pm
+
+
 - **MVP (v1.0):** Smallest set of features to prove value.
 - **Stretch (v1.1+):** Nice-to-haves after MVP.
 
 ## User Stories (examples)
-- As a [user type], I want [goal], so that [benefit].
+
+- As a [organizer of annual race ], I want [to assign race number to participants as per their age and registration timeing], so that [every runner get their race no. therefore their particular race track and to fare competition between adults and young runners ].
+
 - …(add 5–10 stories)
 
 ## Acceptance Criteria (for MVP)
 - [ ] When I…, then…, and…
 - [ ] …
+
+ - Given <race number>, when <adult register early>, then <their race number should be start at or above 1000 and run at 9: 30 am>.
+
+- Given <race number>, when <adult register late>, then <their race number should be below 1000 and run at 11:00 am>.
+
+- Given <race number regardless of registration time>, when <Youth registered>, then <their race start at 12: 30 pm>.
 
 ## Non‑Goals (explicitly out of scope for now)
 - …

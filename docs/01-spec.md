@@ -4,7 +4,15 @@
 - Story: As a < organizer of a annual race>, I want <to assign race number to participants as per their age and registration timeing>, so that <every runner get their race no. therefore their particular race track and to fare competition between adults and young runners >.
 
   - Acceptance:
-    - Given <race number>, when <adult register early>, then <their race number should be start at or above 1000>.
+  
+    - Given <race number>, when <adult register early>, then <their race number should be start at or above 1000 and run at 9: 30 am>.
+
+    - Given <race number>, when <adult register late>, then <their race number should be below 1000 and run at 11:00 am>.
+
+    - Given <race number regardless of registration time>, when <Youth registered>, then <their race start at 12: 30 pm>.
+
+   
+
 
 (Add 5–10 stories with clear, testable criteria.)
 
