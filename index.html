@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Race_Day</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
+        <h1>Race day Registration form</h1>
+        <form id="form">
+            <section> 
+                <h2>Name</h2>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </section>
+            <section>
+                <h2>Age</h2>
+                <input type="number" id="age" placeholder="Enter your age" required>
+            </section>
+            <section class="font">
+                <h2>Early Registration</h2>
+                <input type=checkbox id="early">
+                <h2>Late Registration</h2>
+                <input type=checkbox id="late">
+            </section>
+
+            <button id="submit">Submit</button>
+
+        </form>
+        <p id="result">result</p>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
