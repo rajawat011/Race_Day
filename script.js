@@ -23,18 +23,18 @@ document.getElementById("form").addEventListener("submit", function(e){
     if(earlyRegistered === true && age > 18) {
         raceNumber += 1000;
         // console.log(raceNumber + " will race at 9:30 am");
-        result.innerText = `${myName} , your Racenumber ${raceNumber} and you will ract at 09:30 am`
+        result.innerText = `${myName} , your Racenumber ${raceNumber} and you will race at 09:30 am`
         result.style.visibility = "visible"
 
 
     } else if (earlyRegistered === false && age > 18) {
         // console.log(raceNumber + " will race at 11:00 am");
-        result.innerText = `${myName} , your Racenumber ${raceNumber} and you will ract at 11:00 am`
+        result.innerText = `${myName} , your Racenumber ${raceNumber} and you will race at 11:00 am`
         result.style.visibility = "visible"
 
     } else if (age < 18) {
         // console.log(raceNumber + " will run at 12:30 pm");
-        result.innerText = `${myName} , your Racenumber ${raceNumber} and you will ract at 12:30 am`
+        result.innerText = `${myName} , your Racenumber ${raceNumber} and you will race at 12:30 am`
         result.style.visibility = "visible"
 
 
